@@ -1,6 +1,9 @@
 api = 2
 core = 7.x
 
+; Set the default subdir for contrib mobules.
+defaults[projects][subdir] = contrib
+
 ; SEO
 projects[metatag][version] = "1.7"
 projects[pathauto][version] = "1.3"
