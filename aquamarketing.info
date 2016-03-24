@@ -1,0 +1,14 @@
+name = Aqua Web Marketing
+description = This Drupal module define the Studio Aqua web marketing organism. It contains all useful drupal modules and configurations for web marketing.
+package = Aqua
+core = 7.x
+
+dependencies[] = features
+dependencies[] = uuid_features
+dependencies[] = webform_features
+dependencies[] = webform_uuid
+dependencies[] = webform
+dependencies[] = webform_localization
+dependencies[] = aqua_form_features
+
+;stylesheets[screen][] = css/aquaform.css
