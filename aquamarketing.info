@@ -3,12 +3,12 @@ description = This Drupal module define the Studio Aqua web marketing organism. 
 package = Aqua
 core = 7.x
 
-dependencies[] = features
-dependencies[] = uuid_features
-dependencies[] = webform_features
-dependencies[] = webform_uuid
-dependencies[] = webform
-dependencies[] = webform_localization
-dependencies[] = aqua_form_features
+dependencies[] = metatag
+dependencies[] = pathauto
+dependencies[] = globalredirect
+dependencies[] = xmlsitemap
+dependencies[] = redirect
+dependencies[] = google_analytics
+dependencies[] = facebook_tracking_pixel
 
 ;stylesheets[screen][] = css/aquaform.css
